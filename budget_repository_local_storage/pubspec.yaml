@@ -1,0 +1,22 @@
+name: budget_repository_local_storage
+description: A starting point for Dart libraries or applications.
+# version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  budget_repository_core:
+    path: ../budget_repository_core
+  rxdart: ^0.23.1
+  key_value_store:
+
+dev_dependencies:
+  pedantic: ^1.8.0
+  test:
+  flutter_test:
+    sdk: flutter
+  mockito:
